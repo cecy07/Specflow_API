@@ -16,7 +16,7 @@ namespace Specflow_API
         [Given(@"I have a valid number (.*)")]
         public void GivenIHaveAValidNumber(int p0)
         {
-            request.AddUrlSegment("postid", p0.ToString());
+            request.AddUrlSegment("postid", 1);
         }
 
         [When(@"I send Get request to server")]
