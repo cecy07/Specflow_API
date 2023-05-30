@@ -9,7 +9,7 @@ This repository contains a sample API test automation framework built using Spec
 - [RestSharp](https://restsharp.dev/) (installed via NuGet package)
 - [NUnit](https://nunit.org/) (installed via NuGet package)
 
-##The GitHub Actions workflow is configured to:
+## The GitHub Actions workflow is configured to:
 
 Run on every push event.
 Use the latest version of the Ubuntu environment.
