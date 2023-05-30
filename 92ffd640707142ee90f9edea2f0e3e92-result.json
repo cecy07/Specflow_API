@@ -1,0 +1,83 @@
+{
+  "uuid": "e572a47cb70a42aab2ae3e3d11383be7",
+  "historyId": "Get a category and verify the name is a string",
+  "fullName": "Get a category and verify the name is a string",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QJM1JOO"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case4"
+    }
+  ],
+  "links": [],
+  "name": "Get a category and verify the name is a string",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685434297101,
+      "stop": 1685434297803
+    },
+    {
+      "name": "When  Request to Get a category",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685434297803,
+      "stop": 1685434298009
+    },
+    {
+      "name": "Then  Verify the name is a string",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685434298009,
+      "stop": 1685434298015
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685434297101,
+  "stop": 1685434298015
+}
