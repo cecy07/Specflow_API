@@ -7,7 +7,7 @@ using RestSharp;
 namespace Specflow_API
 {
     [Binding]
-    public class Feature1StepDefinitions
+    public class Feature0StepDefinitions
     {
         RestClient client = new RestClient("http://localhost:3000/");
         RestRequest request = new RestRequest("posts/{postid}", Method.Get);

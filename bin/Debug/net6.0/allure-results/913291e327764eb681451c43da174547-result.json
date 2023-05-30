@@ -1,0 +1,83 @@
+{
+  "uuid": "62b3cf973a254cc0ade4c83737c47f85",
+  "historyId": "Get by Id",
+  "fullName": "Get by Id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QJM1JOO"
+    },
+    {
+      "name": "feature",
+      "value": "Feature0"
+    },
+    {
+      "name": "tag",
+      "value": "smoke_test"
+    }
+  ],
+  "links": [],
+  "name": "Get by Id",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have a valid number 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685430977167,
+      "stop": 1685430977182
+    },
+    {
+      "name": "When  I send Get request to server",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685430977182,
+      "stop": 1685430981279
+    },
+    {
+      "name": "Then  Expect a valid record response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685430981279,
+      "stop": 1685430981280
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685430977163,
+  "stop": 1685430981281
+}

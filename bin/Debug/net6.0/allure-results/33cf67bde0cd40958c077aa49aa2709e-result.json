@@ -1,0 +1,83 @@
+{
+  "uuid": "cfe2e1ad4a034c03be20834730cc29a7",
+  "historyId": "Get all categories and validate at least one exists",
+  "fullName": "Get all categories and validate at least one exists",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QJM1JOO"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case3"
+    }
+  ],
+  "links": [],
+  "name": "Get all categories and validate at least one exists",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of categories all",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685431237910,
+      "stop": 1685431238309
+    },
+    {
+      "name": "When  Request to Get all categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685431238309,
+      "stop": 1685431238498
+    },
+    {
+      "name": "Then  Expect at least one category to exist",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685431238498,
+      "stop": 1685431238499
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685431237910,
+  "stop": 1685431238499
+}

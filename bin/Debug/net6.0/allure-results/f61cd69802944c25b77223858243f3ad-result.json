@@ -1,0 +1,84 @@
+{
+  "uuid": "54e9cd4e2ca6455aa11051520af77a6e",
+  "historyId": "Get random product and verify the price is a number",
+  "fullName": "Get random product and verify the price is a number",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QJM1JOO"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case2"
+    }
+  ],
+  "links": [],
+  "name": "Get random product and verify the price is a number",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of products",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685430981392,
+      "stop": 1685430981394
+    },
+    {
+      "name": "When  Request to Get a random product",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685430981394,
+      "stop": 1685430981395
+    },
+    {
+      "name": "Then  Verify the price is a number",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685430981395,
+      "stop": 1685430981397
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685430981392,
+  "stop": 1685430981402
+}
