@@ -1,0 +1,83 @@
+{
+  "uuid": "fd34874fc14543f7a596ef4e7d237967",
+  "historyId": "Get a category and verify the name is a string",
+  "fullName": "Get a category and verify the name is a string",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az440-905"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case4"
+    }
+  ],
+  "links": [],
+  "name": "Get a category and verify the name is a string",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685434241747,
+      "stop": 1685434241903
+    },
+    {
+      "name": "When  Request to Get a category",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685434241903,
+      "stop": 1685434241914
+    },
+    {
+      "name": "Then  Verify the name is a string",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685434241914,
+      "stop": 1685434241924
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685434241747,
+  "stop": 1685434241924
+}
