@@ -1,0 +1,85 @@
+{
+  "uuid": "fef8cdf7d4f64204885e93723769476e",
+  "historyId": "Get product by ID",
+  "fullName": "Get product by ID",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QJM1JOO"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case1"
+    }
+  ],
+  "links": [],
+  "name": "Get product by ID",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Error reading JObject from JsonReader. Current JsonReader item is not an object: StartArray. Path '', line 1, position 1.",
+    "trace": "Newtonsoft.Json.JsonReaderException: Error reading JObject from JsonReader. Current JsonReader item is not an object: StartArray. Path '', line 1, position 1.\r\n   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)\r\n   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)\r\n   at Newtonsoft.Json.Linq.JObject.Parse(String json)\r\n   at Specflow_API.FeaturesStepDefinitions.GivenAListOfProductsThatExistForExample() in D:\\15. Github\\Specflow_API\\FeaturesStepDefinitions.cs:line 23\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of products that exist, for example",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685428739705,
+      "stop": 1685428740183
+    },
+    {
+      "name": "When  Request to Get the product by ID is send",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685428740185,
+      "stop": 1685428740185
+    },
+    {
+      "name": "Then  Expect a valid product",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685428740187,
+      "stop": 1685428740187
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685428739701,
+  "stop": 1685428740190
+}

@@ -1,0 +1,84 @@
+{
+  "uuid": "86d31d16152b4f43a335eb9347dc846a",
+  "historyId": "Get product by ID",
+  "fullName": "Get product by ID",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-QJM1JOO"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case1"
+    }
+  ],
+  "links": [],
+  "name": "Get product by ID",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of products that exist, for example 20",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "running",
+      "steps": [
+        {
+          "name": "When  Request to Get the product by ID is send",
+          "status": "skipped",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1685428285565,
+          "stop": 1685428285565
+        },
+        {
+          "name": "Then  Expect a valid product",
+          "status": "skipped",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1685428285565,
+          "stop": 1685428285565
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685428285564,
+      "stop": 0
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685428285564,
+  "stop": 1685428285566
+}

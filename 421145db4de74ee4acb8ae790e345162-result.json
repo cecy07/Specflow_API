@@ -1,0 +1,83 @@
+{
+  "uuid": "319e4061848348a88d454f407e86aed9",
+  "historyId": "Get random product and verify the price is a number",
+  "fullName": "Get random product and verify the price is a number",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az313-352"
+    },
+    {
+      "name": "feature",
+      "value": "Features"
+    },
+    {
+      "name": "tag",
+      "value": "Test_case2"
+    }
+  ],
+  "links": [],
+  "name": "Get random product and verify the price is a number",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  A list of products",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685433804066,
+      "stop": 1685433804093
+    },
+    {
+      "name": "When  Request to Get a random product",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685433804093,
+      "stop": 1685433804106
+    },
+    {
+      "name": "Then  Verify the price is a number",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685433804106,
+      "stop": 1685433804109
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685433804066,
+  "stop": 1685433804109
+}
