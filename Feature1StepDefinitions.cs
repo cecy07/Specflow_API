@@ -28,6 +28,7 @@ namespace Specflow_API
         [Then(@"Expect a valid record response")]
         public void ThenExpectAValidRecordResponse()
         {
+            Console.WriteLine(response.StatusCode.ToString());
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
         }
     }
