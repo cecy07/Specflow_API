@@ -1,0 +1,1 @@
+{"Get by Id":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"ebbb018cb6361fb7","reportUrl":"https://cecy07.github.io/Specflow_API/7//#testresult/ebbb018cb6361fb7","status":"passed","time":{"start":1685425957615,"stop":1685425957962,"duration":347}}]}}
